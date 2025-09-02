@@ -1,0 +1,10 @@
+.DS_Store
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.bpx
+*.log
+*.out
+*.xml
+*.synctex.gz

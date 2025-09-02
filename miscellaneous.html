@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zachariah Milby - Miscellaneous</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+			<!-- </div> -->
+				
+			
+				<!-- 2025 Io Aurora Paper -->
+				<section class="spotlight style1 orient-right content-align-left image-position-left onscroll-image-fade-in" id="first">
+					<div class="content">
+						<p>
+						<b>funkyfresh</b><br>
+						Planetary Science Journal Graphics Styles for Matplotlib<br>
+						<i>"Make your plots both funky...and fresh!"</i>
+						</p>
+						<p>
+						This package provides a convenient way to automatically set Matplotlib style parameters (fonts, line weights, etc.) to match those of
+							select scientific journals commonly used by planetary scientists, along with the PhD thesis style of my institution (Caltech).
+							If you use this, your plots will look funky and fresh (at least compared to the Matplotlib defaults).
+						<p>
+						You can find the repository and instructions for its installation and use <a href="https://github.com/zachariahmilby/funky-fresh" target="_blank">here.</a>
+						</p>
+						<p>
+							<p>
+							<b>CAUTION</b><br>
+						    Currently only tested on macOS. I have no idea if this will work on Linux or Windows, but I intend to work on it at some point in
+							the future.
+							</p>
+						</p>
+					</div>
+					<div class="image">
+						<img src="images/funkyfresh.png" alt="" />
+					</div>
+				</section>
+
+
+				<!-- 2024 Ganymede Aurora Paper -->
+				<section class="spotlight style1 orient-left content-align-left image-position-left onscroll-image-fade-in">
+					<div class="content">
+						<p>
+						<b>planetviewer</b><br>
+						Ephemeris and Visualization Utilities for Solar System Observers<br>
+						<i>A Python-based planetary geometry viewer based on the NASA PDS Ring-Moon Systems Node</i>
+						</p>
+						<p>
+						<code>planetviewer</code> is a Python-based planetary geometry viewer based on the <a href="https://ssd.jpl.nasa.gov/horizons/">JPL Horizons Ephemeris Service</a>
+							and the NASA PDS Ring-Moon Systems Node <a href="https://pds-rings.seti.org/tools/">Planet Viewers</a>.
+							It incorporates the functionality of both Matplotlib and Astropy as detailed below. In particular, it requires the use of Astropy convenience classes like
+							<code>Time</code> for times and dates, <code>Angle</code> (and the related classes Longitude and Latitude) for angular quantities and <code>Quantity</code> for other general physical quantities
+							with units like distances, velocities, etc. These help to force users to be cognizant of the units of inputs they provide. Most of the functions and methods
+							are decently described in their docstrings, but I'll provide some overviews and a few examples here.
+
+							<p>
+							You can find the repository and instructions for its installation and use <a href="https://github.com/zachariahmilby/planet-viewer" target="_blank">here.</a>
+							</p>
+							<p>
+							<b>CAUTION</b><br>
+							Because of all of the Matplotlib transforms and plotting, this can be significantly slower than the PDS Planet Viewers.
+							</p>
+					</div>
+					<div class="image">
+						<img src="images/planetviewer.png" alt="" />
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
